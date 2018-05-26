@@ -3,7 +3,7 @@ shopt -s nocasematch  # Case insensitive matching
 shopt -s extglob
 
 RED='\033[0;31m'
-regex='^(fix(es)?|change(s)?|merge(s)?|update(s)?|add(s)?)[[:space:]].+[a-zA-Z?!${}()@].{5,}'
+regex='^(fix(es)?|change(s)?|merge(s)?|update(s)?|add(s)?remove(s)?)[[:space:]].+[a-zA-Z?!${}()@].{5,}'
 
 # Get commit Message
 file=`cat $1` 
