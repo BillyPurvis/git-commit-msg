@@ -1,4 +1,4 @@
-# git-commit-msg
+# Git Hooks
 
 
 ## commit-msg
