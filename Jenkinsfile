@@ -1,3 +1,3 @@
 node {
-    echo 'Hello Jenkins'
+    echo 'BRANCH JENK'
 }
